@@ -20,7 +20,7 @@
 
 @media (max-width: 1079px) {
     .elements {
-        padding-top: 0;
+        padding-top: 10px;
         grid-template-columns: repeat(1, auto);
         grid-template-rows: repeat(6, auto);
         width: calc(100% - 2*19px);

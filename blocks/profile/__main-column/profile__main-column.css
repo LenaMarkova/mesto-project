@@ -6,6 +6,6 @@
 
 @media (max-width: 1079px) {
     .profile__main-row {
-        row-gap: 14px;
+        row-gap: 16px;
     }
 }
