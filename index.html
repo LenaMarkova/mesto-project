@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mesto</title>
+    <link rel="stylesheet" href="./pages/index.css">
+</head>
+
+<body class="root">
+    <div class="page">
+        <header class="header">
+            <img class="header__logo" src="./images/logo.png" alt="">
+            <div class="line"></div>
+        </header>
+        <main class="content">
+            <div class="profile">
+                <div class="profile__container-image">
+                    <img class="profile__image" src="./images/kusto.png">
+                </div>
+                <div class="profile__container">
+                    <div class="profile__main-column">
+                        <div class="profile__main-row">
+                            <h1 class="profile__name">Жак-Ив Кусто</h1>
+                            <button class="profile__pencil" type="button"></button>
+                        </div>
+                        <p class="profile__description">Исследователь океана</p>
+                    </div>
+                    <button class="profile__add-button" type="button"></button>
+                </div>
+            </div>
+            <div class="elements">
+                <div class="element">
+                    <img class="element__image-main" src="./images/karachaevsk.jpg" alt="Карачаевск">
+                    <div class="element__mask-group ">
+                        <p class="element__caption">Карачаевск</p><img src="./images/like.svg" alt="лайк" class="element__image-like">
+                    </div>
+                </div>
+
+                <div class="element">
+                    <img class="element__image-main" src="./images/dombay.png" alt="Домбай">
+                    <div class="element__mask-group ">
+                        <p class="element__caption">Гора Эльбрус</p><img src="./images/like.svg" alt="лайк" class="element__image-like">
+                    </div>
+                </div>
+
+
+                <div class="element">
+                    <img class="element__image-main" src="./images/mount-elbrus.png" alt="Эльбрус">
+                    <div class="element__mask-group ">
+                        <p class="element__caption">Домбай</p><img src="./images/like.svg" alt="лайк" class="element__image-like">
+                    </div>
+                </div>
+
+                <div class="element">
+                    <img class="element__image-main" src=" ./images/mount-elbrus.png " alt="Эльбрус ">
+                    <div class="element__mask-group ">
+                        <p class="element__caption">Гора Эльбрус</p><img src="./images/like.svg" alt="лайк" class="element__image-like">
+                    </div>
+                </div>
+
+                <div class="element">
+                    <img class="element__image-main" src="./images/dombay.png " alt="Домбай ">
+                    <div class="element__mask-group ">
+                        <p class="element__caption">Домбай</p><img src="./images/like.svg" alt="лайк" class="element__image-like">
+                    </div>
+                </div>
+                <div class="element">
+                    <img class="element__image-main" src="./images/dombay.png " alt="Домбай ">
+                    <div class="element__mask-group ">
+                        <p class="element__caption">Карачаевск-Черкесск</p><img src="./images/like.svg" alt="лайк" class="element__image-like">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="popup popup_opened">
+                <button class="popup__close-icon"></button>
+                <div class="popup__container">
+                    <h1 class="popup__note-form">Редактировать профиль</h1>
+                    <input class="popup__name" type="text" name="" placeholder="Жак Ив Кусто">
+
+                    <input class="popup__description" type="text" name="" placeholder="Исследователь океана">
+                    <button class="popup__button-save" type="submit">Сохранить</button>
+                </div>
+            </div>
+    </div>
+    </main>
+    <footer class="footer">
+        <p class="footer__about">©2022 Mesto Russia</p>
+    </footer>
+    </div>
+
+</body>
+
+</html>

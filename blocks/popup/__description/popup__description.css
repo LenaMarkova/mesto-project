@@ -1,0 +1,14 @@
+.popup__description {
+    width: 358px;
+    height: 30px;
+    margin: 26px 36px 0px 36px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    color: #000000;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #000;
+}

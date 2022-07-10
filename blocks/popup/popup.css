@@ -1,0 +1,6 @@
+.popup {
+    display: none;
+    position: fixed;
+    left: calc(50% - 215px);
+    top: 195px;
+}
