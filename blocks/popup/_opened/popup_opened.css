@@ -1,5 +1,13 @@
 .popup_opened {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 8px;
+}
+
+@media (max-width: 767px) {
+    .popup_opened {
+        gap: 16px;
+    }
 }
