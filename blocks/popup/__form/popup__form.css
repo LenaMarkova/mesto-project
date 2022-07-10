@@ -3,7 +3,7 @@
         height: 330px;
         background: #FFFFFF;
         border-radius: 10px;
-        margin-top: 8px;
+        margin: 8px;
     }
     
     @media (max-width: 767px) {
