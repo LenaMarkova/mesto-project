@@ -4,3 +4,9 @@
     border-bottom: 1px solid #545454;
     padding-top: 37px;
 }
+
+@media (max-width: 767px) {
+    .line {
+        padding-top: 28px;
+    }
+}

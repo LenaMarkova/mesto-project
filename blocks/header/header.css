@@ -2,4 +2,23 @@
     margin: 0;
     padding: 0;
     padding-top: 45px;
+    width: calc(100% - 2*200px);
+    margin: auto;
+}
+
+@media (max-width: 1079px) {
+    .header {
+        width: calc(100% - 2*27px);
+    }
+}
+
+@media (max-width: 1023px) {
+    .header {}
+}
+
+@media (max-width: 767px) {
+    .header {
+        padding-top: 28px;
+        width: 100%;
+    }
 }

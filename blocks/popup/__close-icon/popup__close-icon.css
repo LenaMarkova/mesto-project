@@ -1,9 +1,23 @@
 .popup__close-icon {
     width: 32px;
     height: 32px;
-    background-color: black;
-    border-color: white;
+    background-color: transparent;
+    border-color: #fff;
     background-image: url("../../../images/close-icon.png");
     background-position: center;
+    background-size: contain;
     background-repeat: no-repeat;
+    position: fixed;
+    border: none;
+    top: calc(100vh/2 - 330px/2 - 8px - 32px);
+    right: calc(100%/2 - 430px/2 - 32px - 8px)
+}
+
+@media (max-width: 767px) {
+    .popup__close-icon {
+        width: 20px;
+        height: 20px;
+        top: calc(100vh/2 - 322px/2 - 8px - 20px);
+        right: calc(100%/2 - 282px/2)
+    }
 }

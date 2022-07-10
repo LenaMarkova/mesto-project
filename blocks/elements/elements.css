@@ -2,8 +2,27 @@
     margin: 0;
     padding: 0;
     display: grid;
-    grid-template-columns: repeat(3, 282px);
-    grid-template-rows: repeat(2, 361px);
-    gap: 17px;
+    grid-template-columns: repeat(3, minmax(auto, 300px));
+    grid-template-rows: repeat(2, auto);
+    gap: 20px 17px;
     padding-top: 47.25px;
+    width: calc(100% - 2*200px);
+    justify-content: center;
+    margin: auto;
+}
+
+@media (max-width: 1279px) {
+    .elements {
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(3, auto);
+    }
+}
+
+@media (max-width: 1079px) {
+    .elements {
+        padding-top: 0;
+        grid-template-columns: repeat(1, auto);
+        grid-template-rows: repeat(6, auto);
+        width: calc(100% - 2*19px);
+    }
 }

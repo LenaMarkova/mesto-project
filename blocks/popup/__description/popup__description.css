@@ -12,3 +12,14 @@
     border-left: none;
     border-bottom: 1px solid #000;
 }
+
+@media (max-width: 767px) {
+    .popup__description {
+        width: 238px;
+        margin: 26px 22px 0px 22px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+    }
+}

@@ -7,3 +7,15 @@
     line-height: 48px;
     vertical-align: bottom;
 }
+
+@media (max-width: 1079px) {
+    .profile__name {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 27px;
+        line-height: 33px;
+        text-align: center;
+        max-width: 189px;
+        padding-top: 22.25px;
+    }
+}

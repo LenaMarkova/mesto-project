@@ -5,3 +5,9 @@
     align-items: center;
     width: 100%;
 }
+
+@media (max-width: 1079px) {
+    .profile__container {
+        flex-direction: column;
+    }
+}

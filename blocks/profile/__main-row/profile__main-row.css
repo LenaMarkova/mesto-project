@@ -6,3 +6,16 @@
     justify-content: flex-end;
     column-gap: 18px;
 }
+
+@media (max-width: 1079px) {
+    .profile__main-row {
+        column-gap: 10px;
+        margin: auto;
+    }
+}
+
+@media (max-width: 767px) {
+    .profile__main-row {
+        margin-left: 65px;
+    }
+}

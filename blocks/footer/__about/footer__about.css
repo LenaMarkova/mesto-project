@@ -9,3 +9,9 @@
     max-width: 318px;
     padding-top: 67px;
 }
+
+@media (max-width: 767px) {
+    .footer__about {
+        padding-top: 48px;
+    }
+}

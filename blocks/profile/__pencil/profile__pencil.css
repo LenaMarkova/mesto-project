@@ -1,10 +1,20 @@
 .profile__pencil {
     width: 24px;
     height: 24px;
-    border: 1px solid white;
+    background-color: black;
+    border-color: white;
     background-image: url("../../../images/pencil.png");
-    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
-    background-color: transparent;
     align-self: center;
+    margin-top: 6px;
+}
+
+@media (max-width: 1079px) {
+    .profile__pencil {
+        width: 18px;
+        height: 18px;
+        align-self: center;
+        margin-top: 23px;
+    }
 }
