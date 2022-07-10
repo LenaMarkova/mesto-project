@@ -4,21 +4,13 @@
     padding-top: 45px;
     width: calc(100% - 2*200px);
     margin: auto;
+    border-bottom: 1px solid #545454;
 }
 
 @media (max-width: 1079px) {
     .header {
-        width: calc(100% - 2*27px);
-    }
-}
-
-@media (max-width: 1023px) {
-    .header {}
-}
-
-@media (max-width: 767px) {
-    .header {
-        padding-top: 28px;
+        padding-top: 23px;
+        margin-bottom: 34px;
         width: 100%;
     }
 }

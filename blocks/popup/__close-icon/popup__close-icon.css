@@ -9,13 +9,17 @@
     background-repeat: no-repeat;
     border: none;
     align-self: flex-start;
-    margin-left: calc(50% + 430px/2 + 8px);
+    position: absolute;
+    top: 10px;
+    top: -20px;
+    right: -40px;
 }
 
 @media (max-width: 767px) {
     .popup__close-icon {
         width: 20px;
         height: 20px;
-        margin-left: calc(50% + 282px/2 - 20px);
+        top: -21px;
+        right: 0px;
     }
 }

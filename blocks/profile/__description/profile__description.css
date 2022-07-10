@@ -11,8 +11,6 @@
 @media (max-width: 1079px) {
     .profile__description {
         min-width: 320px;
-        font-style: normal;
-        font-weight: 400;
         font-size: 14px;
         line-height: 17px;
         margin: auto;

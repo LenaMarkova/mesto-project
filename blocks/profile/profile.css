@@ -1,11 +1,11 @@
 .profile {
     padding: 0;
-    bottom: 0;
     padding-top: 36.25px;
     display: flex;
     column-gap: 10px;
     width: calc(100% - 2*200px);
     margin: auto;
+    gap: 30px;
 }
 
 @media (max-width: 1079px) {

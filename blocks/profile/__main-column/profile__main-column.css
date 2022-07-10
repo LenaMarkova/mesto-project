@@ -5,7 +5,7 @@
 }
 
 @media (max-width: 1079px) {
-    .profile__main-row {
-        row-gap: 16px;
+    .profile__main-column {
+        row-gap: 0px;
     }
 }

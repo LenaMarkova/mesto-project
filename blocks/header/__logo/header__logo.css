@@ -3,11 +3,13 @@
     margin: 0;
     object-fit: cover;
     width: 142px;
+    margin-bottom: 37px;
 }
 
 @media (max-width: 767px) {
     .header__logo {
         width: 103.74px;
-        padding-left: 27px;
+        padding-left: 30px;
+        margin-bottom: 33px;
     }
 }
