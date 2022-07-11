@@ -3,11 +3,12 @@
     height: 24px;
     background-color: black;
     border-color: white;
-    background-image: url("../../../images/pencil.png");
+    background-image: url("../../../images/pencil.svg");
     background-position: center;
     background-repeat: no-repeat;
     align-self: center;
     margin-top: 6px;
+    cursor: pointer;
 }
 
 @media (max-width: 1079px) {
@@ -15,6 +16,5 @@
         width: 18px;
         height: 18px;
         align-self: center;
-        margin-top: 23px;
     }
 }

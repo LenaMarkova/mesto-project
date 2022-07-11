@@ -7,6 +7,8 @@
     background-image: url("../../../images/like.svg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     align-self: center;
+    cursor: pointer;
+    background-color: transparent;
 }
