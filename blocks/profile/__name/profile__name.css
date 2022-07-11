@@ -6,6 +6,7 @@
     font-size: 42px;
     line-height: 48px;
     vertical-align: bottom;
+    text-overflow: ellipsis;
 }
 
 @media (max-width: 1079px) {
@@ -14,6 +15,6 @@
         line-height: 33px;
         text-align: center;
         max-width: 189px;
-        padding-top: 0px;
+        padding-top: 0px
     }
 }
