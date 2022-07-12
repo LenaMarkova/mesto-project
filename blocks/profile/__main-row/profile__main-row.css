@@ -8,4 +8,6 @@
 
 .profile__main-row {
     justify-content: center;
+    gap: 0px 0px;
+    margin-top: 26px;
 }

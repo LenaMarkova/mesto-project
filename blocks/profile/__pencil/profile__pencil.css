@@ -10,7 +10,7 @@
     background-size: 10px 10px;
     align-self: center;
     margin-top: 10px;
-    cursor: url("../../../images/pointer.svg"), pointer;
+    cursor: pointer;
     transition: opacity step-end;
     border: 1px solid #FFFFFF
 }

@@ -7,7 +7,6 @@
     padding: 0;
     vertical-align: top;
     max-width: 336px;
-    max-height: 21.78px;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
@@ -19,8 +18,7 @@
         line-height: 17px;
         margin: auto;
         text-align: center;
+        vertical-align: bottom;
         max-width: 282px;
-        margin-top: 14px;
-        max-height: 17px;
     }
 }

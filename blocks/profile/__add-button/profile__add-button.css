@@ -9,13 +9,13 @@
     background-repeat: no-repeat;
     border: 2px solid #FFFFFF;
     border-radius: 2px;
-    cursor: url("../../../images/pointer.svg"), pointer;
+    cursor: pointer;
     transition: opacity step-end;
 }
 
 @media (max-width: 1079px) {
     .profile__add-button {
-        margin: 29px auto;
+        margin: 30px auto;
         min-width: 282px;
         background-size: 12px auto;
     }
