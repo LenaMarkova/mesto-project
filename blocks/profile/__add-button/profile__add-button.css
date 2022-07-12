@@ -2,21 +2,25 @@
     width: 150px;
     height: 50px;
     background-color: transparent;
+    opacity: 1;
     background-image: url("../../../images/AddButton.svg");
     background-position: center;
-    background-size: contain;
+    background-size: 22px auto;
     background-repeat: no-repeat;
     border: 2px solid #FFFFFF;
     border-radius: 2px;
-    cursor: pointer;
-    background-size: cover;
+    cursor: url("../../../images/pointer.svg"), pointer;
+    transition: opacity step-end;
 }
 
 @media (max-width: 1079px) {
     .profile__add-button {
-        margin: 30px auto;
+        margin: 29px auto;
         min-width: 282px;
-        background-image: url("../../../images/AddButton2.svg");
-        background-size: 30% 40%;
+        background-size: 12px auto;
     }
+}
+
+.profile__add-button:active {
+    opacity: .6;
 }

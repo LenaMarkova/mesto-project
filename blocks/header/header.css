@@ -1,16 +1,15 @@
 .header {
     margin: 0;
     padding: 0;
-    padding-top: 45px;
     width: calc(100% - 2*200px);
     margin: auto;
+    opacity: .7;
     border-bottom: 1px solid #545454;
 }
 
 @media (max-width: 1079px) {
     .header {
         padding-top: 23px;
-        margin-bottom: 34px;
         width: 100%;
     }
 }

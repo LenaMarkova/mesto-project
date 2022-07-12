@@ -3,24 +3,30 @@
     height: 32px;
     background-color: transparent;
     border-color: #fff;
-    background-image: url("../../../images/CloseIcon.svg");
+    opacity: 1;
+    background-image: url("../../../images/closeicon.svg");
     background-position: center;
-    background-size: contain;
+    background-size: 32px auto;
     background-repeat: no-repeat;
     border: none;
     align-self: flex-start;
     position: absolute;
-    top: 10px;
-    top: -20px;
+    top: -40px;
     right: -40px;
-    cursor: pointer;
+    cursor: url("../../../images/pointer.svg"), pointer;
+    transition: opacity step-end;
 }
 
 @media (max-width: 767px) {
     .popup__close-icon {
         width: 20px;
         height: 20px;
-        top: -21px;
+        background-size: 20px auto;
+        top: -36px;
         right: 0px;
     }
+}
+
+.popup__close-icon:hover {
+    opacity: 60%;
 }

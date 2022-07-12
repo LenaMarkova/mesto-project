@@ -11,7 +11,8 @@
     text-align: center;
     border: none;
     margin: 47px 36px 37px 36px;
-    cursor: pointer;
+    cursor: url("../../../images/pointer.svg"), pointer;
+    transition: opacity step-end;
 }
 
 @media (max-width: 767px) {
@@ -21,4 +22,8 @@
         font-size: 14px;
         line-height: 17px;
     }
+}
+
+.popup__button-save:hover {
+    opacity: 80%;
 }

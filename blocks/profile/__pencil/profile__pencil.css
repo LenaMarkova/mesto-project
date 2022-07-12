@@ -1,15 +1,18 @@
 .profile__pencil {
     width: 24px;
     height: 24px;
-    background-color: black;
-    border-color: white;
+    background-color: transparent;
+    border-color: #fff;
+    opacity: 1;
     background-image: url("../../../images/pencil.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 10px 10px;
     align-self: center;
-    margin-top: 6px;
-    cursor: pointer;
+    margin-top: 10px;
+    cursor: url("../../../images/pointer.svg"), pointer;
+    transition: opacity step-end;
+    border: 1px solid #FFFFFF
 }
 
 @media (max-width: 1079px) {
@@ -17,6 +20,9 @@
         width: 18px;
         height: 18px;
         background-size: 7.5px 7.5px;
-        align-self: center;
     }
+}
+
+.profile__pencil:hover {
+    opacity: .6;
 }

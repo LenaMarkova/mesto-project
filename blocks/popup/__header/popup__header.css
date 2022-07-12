@@ -9,8 +9,6 @@
 
 @media (max-width: 767px) {
     .popup__header {
-        font-style: normal;
-        font-weight: 900;
         font-size: 18px;
         line-height: 22px;
         width: 238px;
