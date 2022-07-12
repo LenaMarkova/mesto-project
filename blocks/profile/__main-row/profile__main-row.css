@@ -6,8 +6,10 @@
     column-gap: 18px;
 }
 
-.profile__main-row {
-    justify-content: center;
-    gap: 0px 0px;
-    margin-top: 26px;
+@media (max-width: 1079px) {
+    .profile__main-row {
+        justify-content: center;
+        margin-top: 25px;
+        column-gap: 15.25px;
+    }
 }
