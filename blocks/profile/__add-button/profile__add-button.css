@@ -21,6 +21,6 @@
     }
 }
 
-.profile__add-button:active {
+.profile__add-button:hover {
     opacity: .6;
 }
