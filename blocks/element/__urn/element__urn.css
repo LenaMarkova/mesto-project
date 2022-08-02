@@ -1,0 +1,15 @@
+.element__urn {
+    z-index: 2;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.28px;
+    opacity: 1;
+    transition: opacity 0.5s linear;
+}
+
+.element__urn:active {
+    opacity: .5;
+}

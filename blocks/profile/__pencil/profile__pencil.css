@@ -24,6 +24,6 @@
     }
 }
 
-.profile__pencil:hover {
+.profile__pencil:active {
     opacity: .6;
 }

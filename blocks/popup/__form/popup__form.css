@@ -1,12 +1,3 @@
-    .popup__form {
-        width: 430px;
-        background: #FFFFFF;
-        border-radius: 10px;
-        margin: auto;
-    }
-    
-    @media (max-width: 767px) {
-        .popup__form {
-            width: 282px;
-        }
-    }
+   .popup__form {
+       width: 100%;
+   }

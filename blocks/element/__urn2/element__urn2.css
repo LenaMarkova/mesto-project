@@ -1,0 +1,12 @@
+.element__urn2 {
+    background-image: url("../../../images/urn2.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-self: center;
+    cursor: pointer;
+    background-color: transparent;
+    width: 15.44px;
+    height: 13.3px;
+    border: none;
+}

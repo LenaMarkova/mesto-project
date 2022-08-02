@@ -27,71 +27,60 @@
                     <button class="profile__add-button" type="button"></button>
                 </div>
             </section>
+
             <section class="elements">
-                <article class="element">
-                    <img class="element__image-main" src="./images/karachaevsk.jpg" alt="Карачаевск">
-                    <div class="element__mask-group ">
-                        <h2 class="element__caption">Карачаевск</h2>
-                        <button class="element__like" type="button"></button>
-                    </div>
-                </article>
-
-                <article class="element">
-                    <img class="element__image-main" src="./images/dombay.png" alt="Домбай">
-                    <div class="element__mask-group ">
-                        <h2 class="element__caption">Гора Эльбрус</h2>
-                        <button class="element__like" type="button"></button>
-                    </div>
-                </article>
-
-
-                <article class="element">
-                    <img class="element__image-main" src="./images/mount-elbrus.png" alt="Эльбрус">
-                    <div class="element__mask-group ">
-                        <h2 class="element__caption">Домбай</h2>
-                        <button class="element__like" type="button"></button>
-                    </div>
-                </article>
-
-                <article class="element">
-                    <img class="element__image-main" src=" ./images/mount-elbrus.png " alt="Эльбрус ">
-                    <div class="element__mask-group ">
-                        <h2 class="element__caption">Гора Эльбрус</h2>
-                        <button class="element__like" type="button"></button>
-                    </div>
-                </article>
-
-                <article class="element">
-                    <img class="element__image-main" src="./images/dombay.png " alt="Домбай ">
-                    <div class="element__mask-group ">
-                        <h2 class="element__caption">Домбай</h2>
-                        <button class="element__like" type="button"></button>
-                    </div>
-                </article>
-                <article class="element">
-                    <img class="element__image-main" src="./images/dombay.png " alt="Домбай ">
-                    <div class="element__mask-group ">
-                        <h2 class="element__caption">Карачаевск-Черкесск</h2>
-                        <button class="element__like" type="button"></button>
-                    </div>
-                </article>
             </section>
-            <div class="popup ">
-                <div class="popup__container">
-                    <button class="popup__close-icon" type="button"></button>
-                    <form class="popup__form" name="DataToSand">
-                        <h3 class="popup__header">Редактировать профиль</h3>
-                        <input class="popup__input" type="text" name="name" placeholder="Жак Ив Кусто">
-                        <input class="popup__input" type="text" name="description" placeholder="Исследователь океана">
-                        <button class="popup__button-save" type="submit">Сохранить</button>
-                    </form>
-                </div>
-            </div>
         </main>
         <footer class="footer">
             <p class="footer__about">© 2020 Mesto Russia</p>
         </footer>
     </div>
+
+    <div class="popup popup_type_input">
+        <div class="popup__container">
+            <button class="popup__close-icon" type="button"></button>
+            <form class="popup__form" name="DataToSand">
+                <div class="popup__input-container">
+                    <h3 class="popup__header"></h3>
+                    <input class="popup__input popup__name" type="text" name="name">
+                    <input class="popup__input popup__description" type="text" name="description">
+                    <button class="popup__button-save" type="submit">Сохранить</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="popup popup_type_image">
+        <div class="popup__container">
+            <button class="popup__close-icon" type="button"></button>
+            <form class="popup__form" name="DataToSand">
+                <div class="popup__image-container">
+                    <img class="popup__image">
+                    <p class="popup__image-caption"></p>
+                </div>
+            </form>
+        </div>
+    </div>
+    <template id="element-template">
+        <article class="element">
+            <img class="element__image-main">
+     
+            <div class="element__mask-group ">
+                <h2 class="element__caption"></h2>
+                <button class="element__like" type="button"></button>
+            </div>
+            <div class="element__urn">
+                <button class="element__urn1" type="button"></button>
+                <button class="element__urn2" type = "button"></button>
+             </div>
+       
+             </article>
+    </template>
+
+
+
+
+    <script src="./pages/script.js"></script>
 </body>
 
 </html>
