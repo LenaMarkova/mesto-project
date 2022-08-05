@@ -2,4 +2,14 @@
     margin: 0;
     padding: 0;
     position: relative;
+    border-radius: 10px;
+    background-color: #fff;
+    max-width: 430px;
+    max-height: 330px;
+}
+
+@media (max-width: 767px) {
+    .popup__container {
+        max-width: 282px;
+    }
 }

@@ -35,43 +35,36 @@
             <p class="footer__about">© 2020 Mesto Russia</p>
         </footer>
     </div>
+    <div class="popup popup_type_profile">
+        <div class="popup__container">
+            <button class="popup__close-icon" type="button"></button>
+            <form class="popup__form" name="DataToSand">
+                <h3 class="popup__header">Редактировать профиль</h3>
+                <input class="popup__input popup__name" type="text" name="name">
+                <input class="popup__input popup__description" type="text" name="description">
+                <button class="popup__button-save" type="submit">Сохранить</button>
+            </form>
+        </div>
+    </div>
 
     <div class="popup popup_type_add-card">
         <div class="popup__container">
             <button class="popup__close-icon" type="button"></button>
             <form class="popup__form" name="DataToSand">
-                <div class="popup__input-container">
-                    <h3 class="popup__header"></h3>
-                    <input class="popup__input popup__name" type="text" name="name">
-                    <input class="popup__input popup__description" type="text" name="description">
-                    <button class="popup__button-save" type="submit">Сохранить</button>
-                </div>
+                <h3 class="popup__header popup__header_new-place">Новое место</h3>
+                <input class="popup__input popup__input_new-place popup__name" type="text" name="name" placeholder="Название">
+                <input class="popup__input popup__input_new-place popup__description" type="text" name="description" placeholder="Ссылка на картинку">
+                <button class="popup__button-save" type="submit">Создать</button>
             </form>
         </div>
     </div>
 
-    <div class="popup popup_type_profile">
-        <div class="popup__container">
+    <div class="popup popup_image popup_type_view-image">
+        <div class="popup_container popup__container_image">
             <button class="popup__close-icon" type="button"></button>
             <form class="popup__form" name="DataToSand">
-                <div class="popup__input-container">
-                    <h3 class="popup__header"></h3>
-                    <input class="popup__input popup__name" type="text" name="name">
-                    <input class="popup__input popup__description" type="text" name="description">
-                    <button class="popup__button-save" type="submit">Сохранить</button>
-                </div>
-            </form>
-        </div>
-    </div>
-
-    <div class="popup popup_type_view-image">
-        <div class="popup__container">
-            <button class="popup__close-icon" type="button"></button>
-            <form class="popup__form" name="DataToSand">
-                <div class="popup__image-container">
-                    <img class="popup__image">
-                    <p class="popup__image-caption"></p>
-                </div>
+                <img class="popup__image">
+                <p class="popup__image-caption"></p>
             </form>
         </div>
     </div>

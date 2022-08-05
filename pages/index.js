@@ -84,12 +84,11 @@ function setLike(evt) {
 }
 
 function viewPicture(evt) {
-    const elementTarget = evt.target.closest(".element");
-    const elementCaption = elementTarget.querySelector(".element__caption").textContent;
-    openPopup(popupTypeViewImage);
+    const elementCaption = evt.target.alt;
     popupTypeViewImageElementImage.setAttribute("src", evt.target.src);
     popupTypeViewImageElementImage.setAttribute("alt", elementCaption);
     popupTypeViewImageElemenImageCaption.textContent = elementCaption;
+    openPopup(popupTypeViewImage);
 };
 
 function popupProfileSubmitHandler(evt) {
@@ -108,18 +107,10 @@ function popupAddCardSubmitHandler(evt) {
 
 profileAddButton.addEventListener('click', function() {
     openPopup(popupTypeAddCard);
-    popupTypeAddCardHeader.textContent = "Новое место";
-    popupTypeAddCardInputName.setAttribute("placeholder", "Название");
-    popupTypeAddCardInputDescription.setAttribute("placeholder", "Ссылка на картинку");
-    popupTypeAddCardInputName.value = "";
-    popupTypeAddCardInputDescription.value = "";
 });
 
 profileEdit.addEventListener('click', function() {
     openPopup(popupTypeProfile);
-    popupTypeProfileHeader.textContent = "Редактировать профиль";
-    popupTypeProfileInputName.setAttribute("placeholder", "");
-    popupTypeProfileInputDescription.setAttribute("placeholder", "");
     popupTypeProfileInputName.value = profileName.textContent;
     popupTypeProfileInputDescription.value = profileDescription.textContent;
 
