@@ -4,6 +4,7 @@
     font-size: 12px;
     line-height: 15px;
     color: white;
+    background-color: transparent;
 }
 
 @media (max-width: 767px) {

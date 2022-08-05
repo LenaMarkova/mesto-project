@@ -1,7 +1,1 @@
-.popup_type_view-image {
-    background-color: rgba(0, 0, 0, .9);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+.popup_type_view-image {}

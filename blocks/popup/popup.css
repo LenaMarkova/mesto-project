@@ -10,7 +10,9 @@
     opacity: 0;
     visibility: hidden;
     z-index: 2;
-    margin: auto;
-    background-color: #fff;
     transition: opacity 2s, visibility 2s linear;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
