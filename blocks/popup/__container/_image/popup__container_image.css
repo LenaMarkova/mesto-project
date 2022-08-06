@@ -4,10 +4,6 @@
     background-color: transparent;
     max-width: 75wh;
     max-height: 75vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
     position: relative;
+    vertical-align: top;
 }
